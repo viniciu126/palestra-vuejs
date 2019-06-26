@@ -3,12 +3,20 @@
     <h1> Organização e padrões de projeto em vuejs </h1>
     <div class="conteudo">
       <ModalOrdem></ModalOrdem>
+      <ModalFilter></ModalFilter>
+      <ModalProps></ModalProps>
+      <ModalEspaco></ModalEspaco>
+      <ModalIdentacao></ModalIdentacao>
     </div>
   </div>
 </template>
 
 <script>
 import ModalOrdem from '../views/modals/ModalOrdem.vue'
+import ModalFilter from '../views/modals/ModalFilter.vue'
+import ModalProps from '../views/modals/ModalProps.vue'
+import ModalEspaco from '../views/modals/ModalEspaco.vue'
+import ModalIdentacao from '../views/modals/ModalIdentacao.vue'
 
 export default {
   name: 'Organizacao',
@@ -16,7 +24,11 @@ export default {
     msg: String
   },
   components: {
-    ModalOrdem
+    ModalOrdem,
+    ModalFilter,
+    ModalProps,
+    ModalEspaco,
+    ModalIdentacao
   }
 }
 
@@ -42,8 +54,6 @@ p{
     font-size:20px;
 }
 .conteudo{
-    background-color:;
     display: inline-block;
-    
 }
 </style>

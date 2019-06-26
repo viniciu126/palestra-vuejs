@@ -41,8 +41,6 @@ p{
     font-size:20px;
 }
 .conteudo{
-    background-color:;
     display: inline-block;
-    border:1px solid  #666666;
 }
 </style>
